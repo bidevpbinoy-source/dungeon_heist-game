@@ -1,0 +1,327 @@
+{
+  "exp1": {
+    "n_positions": 40,
+    "rows": [
+      {
+        "depth": 2,
+        "plain_nodes": 13.175,
+        "ab_nodes": 10.725,
+        "saved_pct": 18.595825426944977,
+        "plain_ms": 0.10090999998624284,
+        "ab_ms": 0.09634250001226974,
+        "speedup": 1.0474089832980398,
+        "identical_scores": true
+      },
+      {
+        "depth": 3,
+        "plain_nodes": 42.875,
+        "ab_nodes": 28.4,
+        "saved_pct": 33.76093294460642,
+        "plain_ms": 0.32197249998944244,
+        "ab_ms": 0.24180999999430242,
+        "speedup": 1.331510276651209,
+        "identical_scores": true
+      },
+      {
+        "depth": 4,
+        "plain_nodes": 137.6,
+        "ab_nodes": 70.025,
+        "saved_pct": 49.10973837209301,
+        "plain_ms": 1.0150350000117214,
+        "ab_ms": 0.5244724999954542,
+        "speedup": 1.9353445605260888,
+        "identical_scores": true
+      },
+      {
+        "depth": 5,
+        "plain_nodes": 440.6,
+        "ab_nodes": 171.8,
+        "saved_pct": 61.00771674988652,
+        "plain_ms": 3.150544999999738,
+        "ab_ms": 1.2335774999883142,
+        "speedup": 2.5539903249123657,
+        "identical_scores": true
+      },
+      {
+        "depth": 6,
+        "plain_nodes": 1431.15,
+        "ab_nodes": 412.55,
+        "saved_pct": 71.17353177514588,
+        "plain_ms": 10.144042499990746,
+        "ab_ms": 2.851745000015171,
+        "speedup": 3.5571351926405694,
+        "identical_scores": true
+      },
+      {
+        "depth": 7,
+        "plain_nodes": 4716.55,
+        "ab_nodes": 1013.35,
+        "saved_pct": 78.5150162724873,
+        "plain_ms": 34.022505000007186,
+        "ab_ms": 7.045635000019956,
+        "speedup": 4.828877028104751,
+        "identical_scores": true
+      }
+    ]
+  },
+  "exp3": {
+    "cap_turns": 200,
+    "rows": [
+      {
+        "variant": "Original",
+        "stalled": 58,
+        "total": 80,
+        "mean_turns": 56.0
+      },
+      {
+        "variant": "+ closeness tie-break",
+        "stalled": 55,
+        "total": 80,
+        "mean_turns": 56.04
+      },
+      {
+        "variant": "+ sooner-is-better (final)",
+        "stalled": 1,
+        "total": 80,
+        "mean_turns": 61.21518987341772
+      }
+    ]
+  },
+  "exp2": {
+    "n_games": 60,
+    "level": 3,
+    "rows": [
+      {
+        "policy": "random",
+        "depth": 1,
+        "win": 59,
+        "tie": 0,
+        "loss": 1,
+        "win_rate": 0.9833333333333333,
+        "ci_lo": 0.9114466177322051,
+        "ci_hi": 0.9970519161391262,
+        "mean_share": 0.9221124833199137
+      },
+      {
+        "policy": "random",
+        "depth": 2,
+        "win": 59,
+        "tie": 0,
+        "loss": 1,
+        "win_rate": 0.9833333333333333,
+        "ci_lo": 0.9114466177322051,
+        "ci_hi": 0.9970519161391262,
+        "mean_share": 0.9221124833199137
+      },
+      {
+        "policy": "random",
+        "depth": 3,
+        "win": 59,
+        "tie": 0,
+        "loss": 1,
+        "win_rate": 0.9833333333333333,
+        "ci_lo": 0.9114466177322051,
+        "ci_hi": 0.9970519161391262,
+        "mean_share": 0.9217076250203184
+      },
+      {
+        "policy": "random",
+        "depth": 4,
+        "win": 59,
+        "tie": 0,
+        "loss": 1,
+        "win_rate": 0.9833333333333333,
+        "ci_lo": 0.9114466177322051,
+        "ci_hi": 0.9970519161391262,
+        "mean_share": 0.9187664485497303
+      },
+      {
+        "policy": "random",
+        "depth": 5,
+        "win": 59,
+        "tie": 0,
+        "loss": 1,
+        "win_rate": 0.9833333333333333,
+        "ci_lo": 0.9114466177322051,
+        "ci_hi": 0.9970519161391262,
+        "mean_share": 0.9178892555672742
+      },
+      {
+        "policy": "random",
+        "depth": 6,
+        "win": 59,
+        "tie": 0,
+        "loss": 1,
+        "win_rate": 0.9833333333333333,
+        "ci_lo": 0.9114466177322051,
+        "ci_hi": 0.9970519161391262,
+        "mean_share": 0.9130627095642576
+      },
+      {
+        "policy": "random",
+        "depth": 7,
+        "win": 59,
+        "tie": 0,
+        "loss": 1,
+        "win_rate": 0.9833333333333333,
+        "ci_lo": 0.9114466177322051,
+        "ci_hi": 0.9970519161391262,
+        "mean_share": 0.90670802194022
+      },
+      {
+        "policy": "greedy",
+        "depth": 1,
+        "win": 26,
+        "tie": 0,
+        "loss": 34,
+        "win_rate": 0.43333333333333335,
+        "ci_lo": 0.31572200394400635,
+        "ci_hi": 0.5589678534530513,
+        "mean_share": 0.48584739993408727
+      },
+      {
+        "policy": "greedy",
+        "depth": 2,
+        "win": 25,
+        "tie": 0,
+        "loss": 35,
+        "win_rate": 0.4166666666666667,
+        "ci_lo": 0.30064086487871833,
+        "ci_hi": 0.5427214568676039,
+        "mean_share": 0.48426368952684745
+      },
+      {
+        "policy": "greedy",
+        "depth": 3,
+        "win": 28,
+        "tie": 0,
+        "loss": 32,
+        "win_rate": 0.4666666666666667,
+        "ci_lo": 0.34627701540988,
+        "ci_hi": 0.5910679132886489,
+        "mean_share": 0.490399806591757
+      },
+      {
+        "policy": "greedy",
+        "depth": 4,
+        "win": 28,
+        "tie": 0,
+        "loss": 32,
+        "win_rate": 0.4666666666666667,
+        "ci_lo": 0.34627701540988,
+        "ci_hi": 0.5910679132886489,
+        "mean_share": 0.49138019874861977
+      },
+      {
+        "policy": "greedy",
+        "depth": 5,
+        "win": 27,
+        "tie": 0,
+        "loss": 33,
+        "win_rate": 0.45,
+        "ci_lo": 0.33093453853760824,
+        "ci_hi": 0.575082854510185,
+        "mean_share": 0.48828051893067376
+      },
+      {
+        "policy": "greedy",
+        "depth": 6,
+        "win": 27,
+        "tie": 0,
+        "loss": 33,
+        "win_rate": 0.45,
+        "ci_lo": 0.33093453853760824,
+        "ci_hi": 0.575082854510185,
+        "mean_share": 0.48956257021272503
+      },
+      {
+        "policy": "greedy",
+        "depth": 7,
+        "win": 25,
+        "tie": 0,
+        "loss": 35,
+        "win_rate": 0.4166666666666667,
+        "ci_lo": 0.30064086487871833,
+        "ci_hi": 0.5427214568676039,
+        "mean_share": 0.4814659334473576
+      },
+      {
+        "policy": "minimax-3",
+        "depth": 1,
+        "win": 24,
+        "tie": 0,
+        "loss": 36,
+        "win_rate": 0.4,
+        "ci_lo": 0.28569303003765506,
+        "ci_hi": 0.5263417560579315,
+        "mean_share": 0.4604714411835155
+      },
+      {
+        "policy": "minimax-3",
+        "depth": 2,
+        "win": 24,
+        "tie": 0,
+        "loss": 36,
+        "win_rate": 0.4,
+        "ci_lo": 0.28569303003765506,
+        "ci_hi": 0.5263417560579315,
+        "mean_share": 0.46957149146003635
+      },
+      {
+        "policy": "minimax-3",
+        "depth": 3,
+        "win": 24,
+        "tie": 0,
+        "loss": 36,
+        "win_rate": 0.4,
+        "ci_lo": 0.28569303003765506,
+        "ci_hi": 0.5263417560579315,
+        "mean_share": 0.466733249550587
+      },
+      {
+        "policy": "minimax-3",
+        "depth": 4,
+        "win": 25,
+        "tie": 0,
+        "loss": 35,
+        "win_rate": 0.4166666666666667,
+        "ci_lo": 0.30064086487871833,
+        "ci_hi": 0.5427214568676039,
+        "mean_share": 0.47176543786450903
+      },
+      {
+        "policy": "minimax-3",
+        "depth": 5,
+        "win": 24,
+        "tie": 0,
+        "loss": 36,
+        "win_rate": 0.4,
+        "ci_lo": 0.28569303003765506,
+        "ci_hi": 0.5263417560579315,
+        "mean_share": 0.4710589204397254
+      },
+      {
+        "policy": "minimax-3",
+        "depth": 6,
+        "win": 24,
+        "tie": 0,
+        "loss": 36,
+        "win_rate": 0.4,
+        "ci_lo": 0.28569303003765506,
+        "ci_hi": 0.5263417560579315,
+        "mean_share": 0.4710589204397254
+      },
+      {
+        "policy": "minimax-3",
+        "depth": 7,
+        "win": 21,
+        "tie": 0,
+        "loss": 39,
+        "win_rate": 0.35,
+        "ci_lo": 0.24167601723815488,
+        "ci_hi": 0.4763761619052249,
+        "mean_share": 0.4598903882495214
+      }
+    ]
+  }
+}

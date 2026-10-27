@@ -1,0 +1,18 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Game logs/results (optional - if results are test runs or generated content)
+# results/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
